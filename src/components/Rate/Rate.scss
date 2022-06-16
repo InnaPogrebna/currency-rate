@@ -1,0 +1,15 @@
+.rate {
+  padding-top: 20px;
+  height: 55px;
+  
+  &__list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+
+    &__item {
+      color: blue;
+    }
+  }
+}

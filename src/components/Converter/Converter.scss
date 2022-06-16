@@ -1,0 +1,37 @@
+.converter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+
+  &__block {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &__img {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: 1px transparent;
+    background: transparent;
+
+    &:hover {
+      border: 1px solid grey;
+    }
+  }
+
+  &__input {
+    color: rgb(43, 73, 192);
+    font-weight: 600; 
+  }
+
+  &__select {
+    display: block; 
+    font-size: 14px; 
+    font-family: sans-serif; 
+    font-weight: 600; 
+    color: rgb(43, 73, 192); 
+  }
+}
